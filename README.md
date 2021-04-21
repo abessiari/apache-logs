@@ -1,4 +1,4 @@
-# Apache logs from s3
+# Apache logs from s3 buckets
 
 ## Requirements 
 
@@ -10,8 +10,8 @@
 
 #### Using python tool and goaccess docker image
 
-- For more info on goaccess [url](https://goaccess.io/)
-- Generate html report Using tools/s3.py 
+- For more info on goaccess go to [url](https://goaccess.io/)
+- Generate html report using tools/s3.py 
 
 ```
 pip install boto3
@@ -22,8 +22,8 @@ cd tools
 
 #### Using python tools and sqlite3
 
-- For more info on apache-log-parser[url](https://pypi.org/project/apache-log-parser/)
-- For more info on sqlite3 [url](https://www.sqlite.org/index.html)
+- For more info on apache-log-parser go to [url](https://pypi.org/project/apache-log-parser/)
+- For more info on sqlite3  go to [url](https://www.sqlite.org/index.html)
 - Use sqlite command line to view logs table in logs.db
 
 
